@@ -8,17 +8,32 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    @State private var isShowing = false
+    
     var body: some View {
-        ZStack{
-            VStack{
-                Spacer()
-                Text("Hello, world!")
-                    .padding()
-                Spacer()
-                Button(action: {
+        NavigationView {
+            ZStack{
+                Color.blue
+                    .edgesIgnoringSafeArea(.all)
+                VStack{
+                    Spacer()
+                    Text("Hello, world!")
+                        .padding()
+                        .foregroundColor(.white)
                     
-                }) {
-                    Text("Tap me!")
+                    Spacer()
+                    
+                    Button(action: {
+                        self.isShowing = true
+                    }) {
+                        Text("Tap me!")
+                            .padding(20)
+                            .foregroundColor(.white)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 8)
+                                    .stroke(.white, lineWidth: 1)
+                            )
+                    }
                 }
             }
         }
