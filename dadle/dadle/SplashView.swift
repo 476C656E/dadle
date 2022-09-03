@@ -14,7 +14,7 @@ struct SplashView: View {
     var body: some View {
         VStack {
             if self.isActiveBool {
-                ContentView()
+                OnboardingView()
             } else {
                 Text("Splash")
                 
