@@ -7,11 +7,23 @@
 
 import SwiftUI
 
+import KakaoSDKAuth
+import KakaoSDKCommon
+
 @main
 struct dadleApp: App {
+    init() {
+        // Kakao SDK Init
+        KakaoSDK.initSDK(appKey: "298f3f8f42259cd80cd4c11099aee74b")
+    }
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            OnboardingView()
+                .onOpenURL { url in
+                    if (AuthApi.isKakaoTalkLoginUrl(url)) {
+                        _ = AuthController.handleOpenUrl(url: url)
+                    }
+                }
         }
     }
 }
