@@ -7,32 +7,34 @@
 
 import SwiftUI
 
-// MARK: Kakao Login Button Style
-struct KakaoLoginButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
+extension ButtonStyleConfiguration {
+    func customBody() -> some View {
+        self.label
             .frame(width: 300, height: 25)
             .padding()
             .background(Color(red:0, green: 0, blue: 0.5))
             .foregroundColor(.white)
             .cornerRadius(5)
-            .scaleEffect(configuration.isPressed ? 1.1 : 1)
-            .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
+            .scaleEffect(self.isPressed ? 1.1 : 1)
+            .animation(.easeOut(duration: 0.2), value: self.isPressed)
+    }
+}
+
+// MARK: Kakao Login Button Style
+struct KakaoLoginButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration
+            .customBody()
+            
     }
 }
 
 // MARK: Apple Login Button Style
 struct AppleLoginButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .frame(width: 300, height: 25)
-            .padding()
-            .background(Color(red:0, green: 0.5, blue: 0))
-            .foregroundColor(.white)
-            .cornerRadius(5)
+        configuration
+            .customBody()
             .shadow(color: .black, radius: 3, x: 0, y: 1)
-            .scaleEffect(configuration.isPressed ? 1.1 : 1)
-            .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
     }
 }
 
