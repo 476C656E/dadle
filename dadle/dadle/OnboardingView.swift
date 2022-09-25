@@ -23,17 +23,18 @@ struct OnboardingView: View {
                     
                     Spacer()
                     
-                    Button(action: {
-                        self.isShowing = true
-                    }) {
-                        Text("Tap me!")
-                            .padding(20)
-                            .foregroundColor(.white)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .stroke(.white, lineWidth: 1)
-                            )
-                    }
+//                    Button(action: {
+//                        self.isShowing = true
+//                    }) {
+//                        Text("Tap me!")
+//                            .padding(20)
+//                            .foregroundColor(.white)
+//                            .overlay(
+//                                RoundedRectangle(cornerRadius: 8)
+//                                    .stroke(.white, lineWidth: 1)
+//                            )
+//                    }
+                    SocialLoginButton()
                 }
             }
         }

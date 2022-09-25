@@ -41,7 +41,6 @@ struct AppleLoginButtonStyle: ButtonStyle {
 struct SocialLoginButton: View {
     var body: some View {
         VStack  {
-            
             Button("Kakao Login") {
                 // Kakao SDKAction
                 print("Kakako Btn Pressed!")

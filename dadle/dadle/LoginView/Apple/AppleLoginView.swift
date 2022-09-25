@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct AppleLoginView: View {
+    @Environment(\.window) var window : UIWindow?
+    @State private var appleCoordinator : AppleCoordinator?
+    
     var body: some View {
         Button("Apple Login") {
             // Apple SDKAction
-            print("Apple Btn pressed!")
+            appleLogin()
         }.buttonStyle(AppleLoginButtonStyle())
+    }
+    
+    func appleLogin() {
+        appleCoordinator = AppleCoordinator(window: window)
+        appleCoordinator?.startAppleLogin()
     }
 }
 
