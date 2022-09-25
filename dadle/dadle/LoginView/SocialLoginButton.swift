@@ -48,10 +48,7 @@ struct SocialLoginButton: View {
             }
             .buttonStyle(KakaoLoginButtonStyle())
             
-            Button("Apple Login") {
-                // Apple SDKAction
-                print("Apple Btn pressed!")
-            }.buttonStyle(AppleLoginButtonStyle())
+            AppleLoginView()
         }
     }
 }
