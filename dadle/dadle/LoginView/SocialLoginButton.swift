@@ -42,23 +42,21 @@ struct AppleLoginButtonStyle: ButtonStyle {
     }
 }
 
+
 struct SocialLoginButton: View {
+    
+    @StateObject var kakaoAuthVM: KakaoAuthVM = KakaoAuthVM()
+    
+//    let loginStatusInfo: (Bool) -> String { isLoggedIn in
+//        return isLoggedIn ? "로그인 상태" : "로그아웃 상태"
+//    }
+    
     var body: some View {
         VStack  {
             
             Button("Kakao Login") {
-                if (UserApi.isKakaoTalkLoginAvailable()) {
-                    UserApi.shared.loginWithKakaoTalk {
-                        (oauthToken, error) in print(oauthToken)
-                        print(error)
-                    }
-                } else {
-                    UserApi.shared.loginWithKakaoAccount {(oauthToken, error) in
-                        print(oauthToken)
-                        print(error)
-                    }
-                }
                 print("Kakako Btn Pressed!")
+                kakaoAuthVM.handleKakaoLogin()
             }
             .buttonStyle(KakaoLoginButtonStyle())
                
