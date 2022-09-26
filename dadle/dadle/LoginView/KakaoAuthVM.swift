@@ -16,6 +16,7 @@ class KakaoAuthVM: ObservableObject {
     
     // MARK: Kakao Logout
     
+    
     @MainActor
     func kakaoLogout() {
         Task {
