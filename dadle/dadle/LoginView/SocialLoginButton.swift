@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+import KakaoSDKCommon
+import KakaoSDKAuth
+import KakaoSDKUser
+
 extension ButtonStyleConfiguration {
     func customBody() -> some View {
         self.label
@@ -38,15 +42,24 @@ struct AppleLoginButtonStyle: ButtonStyle {
     }
 }
 
+
 struct SocialLoginButton: View {
+    
+    @StateObject var kakaoAuthVM: KakaoAuthVM = KakaoAuthVM()
+    
+//    let loginStatusInfo: (Bool) -> String { isLoggedIn in
+//        return isLoggedIn ? "로그인 상태" : "로그아웃 상태"
+//    }
+    
     var body: some View {
         VStack  {
             
             Button("Kakao Login") {
-                // Kakao SDKAction
                 print("Kakako Btn Pressed!")
+                kakaoAuthVM.handleKakaoLogin()
             }
             .buttonStyle(KakaoLoginButtonStyle())
+               
             
             Button("Apple Login") {
                 // Apple SDKAction
