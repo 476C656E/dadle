@@ -24,7 +24,9 @@ struct OnboardingView: View {
                     Spacer()
                     
                     Button(action: {
+                        
                         self.isShowing = true
+                        
                     }) {
                         Text("Tap me!")
                             .padding(20)

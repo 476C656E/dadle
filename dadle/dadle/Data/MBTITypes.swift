@@ -35,6 +35,7 @@ struct MBTIPersonality {
     let lifestyle: Lifestyle
 }
 
+// 하위 구조들을 어떻게 다룰지 고민을 더 해봐야 함
 struct Test {
     var testId: Int
     var testName: String
