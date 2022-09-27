@@ -18,9 +18,16 @@ extension ButtonStyleConfiguration {
             .padding()
             .background(Color(red:0, green: 0, blue: 0.5))
             .foregroundColor(.white)
-            .cornerRadius(5)
+            .cornerRadius(10)
             .scaleEffect(self.isPressed ? 1.1 : 1)
             .animation(.easeOut(duration: 0.2), value: self.isPressed)
+    }
+}
+
+struct StartHomeButton: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration
+            .customBody()
     }
 }
 

@@ -11,12 +11,11 @@
 		04A9D80028C3BDC300038D5A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D7FF28C3BDC300038D5A /* OnboardingView.swift */; };
 		04A9D80228C3BDC400038D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D80128C3BDC400038D5A /* Assets.xcassets */; };
 		04A9D80528C3BDC400038D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D80428C3BDC400038D5A /* Preview Assets.xcassets */; };
-		04A9D80C28C3BF3F00038D5A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D80B28C3BF3F00038D5A /* SplashView.swift */; };
-		04A9D80E28C3C1EC00038D5A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D80D28C3C1EC00038D5A /* MainView.swift */; };
 		04BD3A6528E199650009B85F /* AppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD3A6228E199650009B85F /* AppleCoordinator.swift */; };
 		04BD3A6628E199650009B85F /* EnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD3A6328E199650009B85F /* EnvironmentKey.swift */; };
 		04BD3A6728E199650009B85F /* AppleLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD3A6428E199650009B85F /* AppleLoginView.swift */; };
 		04BD3A6A28E199D50009B85F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 04BD3A6928E199D50009B85F /* FirebaseAuth */; };
+		7161261F28E3133900C474D0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161261E28E3133900C474D0 /* ColorExtension.swift */; };
 		71A96E8528C65DE100978DF3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 71A96E8428C65DE100978DF3 /* FirebaseAnalytics */; };
 		71A96E8E28C65EF000978DF3 /* SocialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A96E8D28C65EF000978DF3 /* SocialLoginButton.swift */; };
 		71A96E9128C660D800978DF3 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 71A96E9028C660D800978DF3 /* KakaoSDKAuth */; };
@@ -35,11 +34,10 @@
 		04A9D7FF28C3BDC300038D5A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		04A9D80128C3BDC400038D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A9D80428C3BDC400038D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04A9D80B28C3BF3F00038D5A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		04A9D80D28C3C1EC00038D5A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04BD3A6228E199650009B85F /* AppleCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleCoordinator.swift; sourceTree = "<group>"; };
 		04BD3A6328E199650009B85F /* EnvironmentKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentKey.swift; sourceTree = "<group>"; };
 		04BD3A6428E199650009B85F /* AppleLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleLoginView.swift; sourceTree = "<group>"; };
+		7161261E28E3133900C474D0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		71A96E8D28C65EF000978DF3 /* SocialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginButton.swift; sourceTree = "<group>"; };
 		71A96EB028C6631F00978DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7A4E0A8728DD85B60065B822 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -85,14 +83,13 @@
 		04A9D7FC28C3BDC300038D5A /* dadle */ = {
 			isa = PBXGroup;
 			children = (
+				7161262028E3285A00C474D0 /* Onboarding */,
 				7A4E0A8628DD859D0065B822 /* Home */,
 				7A4E0A8528DD858C0065B822 /* Data */,
 				71A96E8628C65E3100978DF3 /* LoginView */,
 				04A9D7FD28C3BDC300038D5A /* dadleApp.swift */,
-				04A9D80B28C3BF3F00038D5A /* SplashView.swift */,
-				04A9D7FF28C3BDC300038D5A /* OnboardingView.swift */,
-				04A9D80D28C3C1EC00038D5A /* MainView.swift */,
 				7A4E0A8928DD86550065B822 /* AppTabNavigation.swift */,
+				7161261E28E3133900C474D0 /* ColorExtension.swift */,
 				04A9D80128C3BDC400038D5A /* Assets.xcassets */,
 				71A96EB028C6631F00978DF3 /* Info.plist */,
 				7A4E0A8B28DD87D10065B822 /* GoogleService-Info.plist */,
@@ -108,6 +105,14 @@
 				04A9D80428C3BDC400038D5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7161262028E3285A00C474D0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				04A9D7FF28C3BDC300038D5A /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		71A96E8628C65E3100978DF3 /* LoginView */ = {
@@ -224,15 +229,14 @@
 				7A4E0A8A28DD86550065B822 /* AppTabNavigation.swift in Sources */,
 				04BD3A6728E199650009B85F /* AppleLoginView.swift in Sources */,
 				04A9D80028C3BDC300038D5A /* OnboardingView.swift in Sources */,
-				04A9D80E28C3C1EC00038D5A /* MainView.swift in Sources */,
 				7A4E0A8E28DD896A0065B822 /* MBTITypes.swift in Sources */,
 				71A96E8E28C65EF000978DF3 /* SocialLoginButton.swift in Sources */,
 				7A4E0A8828DD85B60065B822 /* HomeView.swift in Sources */,
 				04A9D7FE28C3BDC300038D5A /* dadleApp.swift in Sources */,
 				04BD3A6528E199650009B85F /* AppleCoordinator.swift in Sources */,
 				7A64653728E1800A00A71233 /* KakaoAuthVM.swift in Sources */,
-				04A9D80C28C3BF3F00038D5A /* SplashView.swift in Sources */,
 				04BD3A6628E199650009B85F /* EnvironmentKey.swift in Sources */,
+				7161261F28E3133900C474D0 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
