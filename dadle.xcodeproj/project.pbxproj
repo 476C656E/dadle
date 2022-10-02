@@ -21,7 +21,6 @@
 		71A96E9128C660D800978DF3 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 71A96E9028C660D800978DF3 /* KakaoSDKAuth */; };
 		71A96E9328C660D800978DF3 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 71A96E9228C660D800978DF3 /* KakaoSDKCommon */; };
 		71A96E9528C660D800978DF3 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 71A96E9428C660D800978DF3 /* KakaoSDKUser */; };
-		71E4319228E5BAAB00800926 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E4319128E5BAAB00800926 /* ButtonExtension.swift */; };
 		7A4E0A8828DD85B60065B822 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E0A8728DD85B60065B822 /* HomeView.swift */; };
 		7A4E0A8A28DD86550065B822 /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E0A8928DD86550065B822 /* AppTabNavigation.swift */; };
 		7A4E0A8C28DD87D10065B822 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E0A8B28DD87D10065B822 /* GoogleService-Info.plist */; };
@@ -41,7 +40,6 @@
 		7161261E28E3133900C474D0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		71A96E8D28C65EF000978DF3 /* SocialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginButton.swift; sourceTree = "<group>"; };
 		71A96EB028C6631F00978DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		71E4319128E5BAAB00800926 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 		7A4E0A8728DD85B60065B822 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7A4E0A8928DD86550065B822 /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
 		7A4E0A8B28DD87D10065B822 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 				04A9D7FD28C3BDC300038D5A /* dadleApp.swift */,
 				7A4E0A8928DD86550065B822 /* AppTabNavigation.swift */,
 				7161261E28E3133900C474D0 /* ColorExtension.swift */,
-				71E4319128E5BAAB00800926 /* ButtonExtension.swift */,
 				04A9D80128C3BDC400038D5A /* Assets.xcassets */,
 				71A96EB028C6631F00978DF3 /* Info.plist */,
 				7A4E0A8B28DD87D10065B822 /* GoogleService-Info.plist */,
@@ -238,7 +235,6 @@
 				04A9D7FE28C3BDC300038D5A /* dadleApp.swift in Sources */,
 				04BD3A6528E199650009B85F /* AppleCoordinator.swift in Sources */,
 				7A64653728E1800A00A71233 /* KakaoAuthVM.swift in Sources */,
-				71E4319228E5BAAB00800926 /* ButtonExtension.swift in Sources */,
 				04BD3A6628E199650009B85F /* EnvironmentKey.swift in Sources */,
 				7161261F28E3133900C474D0 /* ColorExtension.swift in Sources */,
 			);
@@ -380,7 +376,6 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,7 +406,6 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
