@@ -16,8 +16,6 @@ struct AppleLoginView: View {
             // Apple SDKAction
             appleLogin()
         }.buttonStyle(AppleLoginButtonStyle())
-            .font(Font.body.bold())
-
     }
     
     func appleLogin() {
