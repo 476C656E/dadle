@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct MBTIPersonality {
     enum Attitude {
         case extraversion

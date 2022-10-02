@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct AppTabNavigation: View {
-    
     enum Tab {
         case home
         case test
@@ -17,6 +16,10 @@ struct AppTabNavigation: View {
     }
     
     @State private var selection: Tab = .home
+    
+    // UserDefualt 
+    @AppStorage("onboarding") var isOnboardingActive: Bool = true
+
     
     var body: some View {
         TabView(selection: $selection) {
@@ -77,6 +80,9 @@ struct AppTabNavigation: View {
                     }
                 }
                 .tag(Tab.profile)
+        }
+        .fullScreenCover(isPresented: $isOnboardingActive) {
+            OnboardingView(isOnboardingActive: $isOnboardingActive)
         }
     }
 }
