@@ -44,7 +44,6 @@
 		7A4E0A8928DD86550065B822 /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
 		7A4E0A8B28DD87D10065B822 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7A4E0A8D28DD896A0065B822 /* MBTITypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTITypes.swift; sourceTree = "<group>"; };
-		7A64653328E1745100A71233 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		7A64653628E1800A00A71233 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +92,6 @@
 				04A9D80128C3BDC400038D5A /* Assets.xcassets */,
 				71A96EB028C6631F00978DF3 /* Info.plist */,
 				7A4E0A8B28DD87D10065B822 /* GoogleService-Info.plist */,
-				7A64653328E1745100A71233 /* Config.xcconfig */,
 				04A9D80328C3BDC400038D5A /* Preview Content */,
 			);
 			path = dadle;
@@ -245,7 +243,6 @@
 /* Begin XCBuildConfiguration section */
 		04A9D80628C3BDC400038D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A64653328E1745100A71233 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -306,7 +303,6 @@
 		};
 		04A9D80728C3BDC400038D5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A64653328E1745100A71233 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -367,7 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"dadle/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TDUR55YWW6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dadle/Info.plist;
@@ -398,7 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"dadle/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TDUR55YWW6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dadle/Info.plist;
