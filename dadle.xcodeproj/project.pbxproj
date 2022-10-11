@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043387EA28F5737A006801FB /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043387E928F5737A006801FB /* TestView.swift */; };
+		043387EF28F575B8006801FB /* DummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 043387EE28F575B8006801FB /* DummyData.json */; };
 		04A9D7FE28C3BDC300038D5A /* dadleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D7FD28C3BDC300038D5A /* dadleApp.swift */; };
 		04A9D80028C3BDC300038D5A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D7FF28C3BDC300038D5A /* OnboardingView.swift */; };
 		04A9D80228C3BDC400038D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D80128C3BDC400038D5A /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043387E928F5737A006801FB /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		043387EE28F575B8006801FB /* DummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DummyData.json; sourceTree = "<group>"; };
 		04A9D7FA28C3BDC300038D5A /* dadle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dadle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9D7FD28C3BDC300038D5A /* dadleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dadleApp.swift; sourceTree = "<group>"; };
 		04A9D7FF28C3BDC300038D5A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043387EB28F57385006801FB /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				043387EE28F575B8006801FB /* DummyData.json */,
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
 		04A9D7F128C3BDC300038D5A = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 				7A4E0A8528DD858C0065B822 /* Data */,
 				71A96E8628C65E3100978DF3 /* LoginView */,
 				04A9D7FD28C3BDC300038D5A /* dadleApp.swift */,
+				043387E928F5737A006801FB /* TestView.swift */,
 				7A4E0A8928DD86550065B822 /* AppTabNavigation.swift */,
 				7161261E28E3133900C474D0 /* ColorExtension.swift */,
 				04A9D80128C3BDC400038D5A /* Assets.xcassets */,
@@ -128,6 +141,7 @@
 		7A4E0A8528DD858C0065B822 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				043387EB28F57385006801FB /* Dummy */,
 				7A4E0A8D28DD896A0065B822 /* MBTITypes.swift */,
 			);
 			path = Data;
@@ -214,6 +228,7 @@
 				04A9D80528C3BDC400038D5A /* Preview Assets.xcassets in Resources */,
 				04A9D80228C3BDC400038D5A /* Assets.xcassets in Resources */,
 				7A4E0A8C28DD87D10065B822 /* GoogleService-Info.plist in Resources */,
+				043387EF28F575B8006801FB /* DummyData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043387EA28F5737A006801FB /* TestView.swift in Sources */,
 				7A4E0A8A28DD86550065B822 /* AppTabNavigation.swift in Sources */,
 				04BD3A6728E199650009B85F /* AppleLoginView.swift in Sources */,
 				04A9D80028C3BDC300038D5A /* OnboardingView.swift in Sources */,

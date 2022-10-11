@@ -37,12 +37,13 @@ struct dadleApp: App {
     var body: some Scene {
         WindowGroup {
             // onOpenURL()을 사용해 커스텀 URL 스킴 처리
-            HomeView()
-                .onOpenURL { url in
-                    if (AuthApi.isKakaoTalkLoginUrl(url)) {
-                        _ = AuthController.handleOpenUrl(url: url)
-                    }
-                }
+//            HomeView()
+//                .onOpenURL { url in
+//                    if (AuthApi.isKakaoTalkLoginUrl(url)) {
+//                        _ = AuthController.handleOpenUrl(url: url)
+//                    }
+//                }
+            TestView()
         }
     }
 }
