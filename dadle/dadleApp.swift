@@ -23,7 +23,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 @main
 struct dadleApp: App {
-    
+    @StateObject private var model = Model()
     // 파이어베이스 셋업 앱 딜리게이트 등록
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
@@ -44,6 +44,7 @@ struct dadleApp: App {
 //                    }
 //                }
             TestView()
+                .environmentObject(model)
         }
     }
 }

@@ -1,26 +1,73 @@
 [
     {
-        "testID": "Jake",
-        "testTitle": "01",
+        "id": "1",
+        "title": "음식을 통한 MBTI 검사",
         "questions": [
             {
-                "questionIndex": "한국",
-                "questionContent": "서울",
+                "id": "1",
+                "content": "낙곱새 VS 간장계란 밥",
                 "MBTIType": "E"
             },{
-                "questionIndex": "2",
-                "questionContent": "3",
+                "id": "2",
+                "content": "전골 VS 핫도그",
                 "MBTIType": "S"
             },{
-                "questionIndex": "4",
-                "questionContent": "5",
+                "id": "3",
+                "content": "스파게티 VS 햄버거",
                 "MBTIType": "F"
             },{
-                "questionIndex": "6",
-                "questionContent": "7",
+                "id": "4",
+                "content": "피자 VS 주먹밥",
                 "MBTIType": "J"
             }
         ]
+    },
+    {
+        "id": "2",
+        "title": "게임을 통한 MBTI 검사",
+        "questions": [
+            {
+                "id": "1",
+                "content": "축구 VS 비디오 게임",
+                "MBTIType": "E"
+            },{
+                "id": "2",
+                "content": "탁구 VS 야구",
+                "MBTIType": "S"
+            },{
+                "id": "3",
+                "content": "배틀그라운드 VS 사격",
+                "MBTIType": "F"
+            },{
+                "id": "4",
+                "content": "오버워치 VS 장기",
+                "MBTIType": "J"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "술을 통한 MBTI 검사",
+        "questions": [
+            {
+                "id": "1",
+                "content": "와인 VS 맥주",
+                "MBTIType": "E"
+            },{
+                "id": "2",
+                "content": "소주 VS 고량주",
+                "MBTIType": "S"
+            },{
+                "id": "3",
+                "content": "과일주 VS 양주",
+                "MBTIType": "F"
+            },{
+                "id": "4",
+                "content": "진주 VS 호주",
+                "MBTIType": "J"
+            }
+        ]
+        
     }
 ]
 

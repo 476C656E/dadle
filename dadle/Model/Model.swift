@@ -1,20 +1,26 @@
 //
-//  TestView.swift
+//  Model.swift
 //  dadle
 //
-//  Created by 강민규 on 2022/10/11.
+//  Created by 강민규 on 2022/10/18.
 //
 
-import SwiftUI
+import Foundation
 
-struct TestView: View {
-    func getJSON() -> String{
+class Model : ObservableObject {
+    @Published var tests : [Test] = []
+    
+    init() {
+        self.tests = getTests()
+    }
+    
+    func getTests() -> [Test]{
         guard let path = Bundle.main.path(forResource: "DummyData", ofType: "json") else {
-            return "nil1"
+            return []
         }
         
         guard let jsonString = try? String(contentsOfFile: path) else {
-            return " nil2"
+            return []
         }
 
         let decoder = JSONDecoder()
@@ -22,7 +28,8 @@ struct TestView: View {
         
         if let data = data,
            let test = try? decoder.decode([Test].self, from: data) {
-            return "\(test.first)"
+            
+            return test
         }
 //        // MARK: - cf) Encode
 //
@@ -32,16 +39,8 @@ struct TestView: View {
 //           let jsonString = String(data: jsonData, encoding: .utf8) {
 //            print(jsonString)
 //        }
-        return "end"
+        return []
     }
-    var body: some View {
-        Text(getJSON())
-        
-    }
+    
 }
 
-struct TestView_Previews: PreviewProvider {
-    static var previews: some View {
-        TestView()
-    }
-}

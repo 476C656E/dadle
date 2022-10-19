@@ -43,15 +43,15 @@ struct MBTIPersonality {
 
 //MARK: - API Model
 // Request
-struct Test : Codable{
-    var testID: String
-    var testTitle: String
+struct Test : Codable, Identifiable, Hashable{
+    var id: String
+    var title: String
     var questions: [Question]
 }
 
-struct Question : Codable{
-    var questionIndex: String
-    var questionContent : String
+struct Question : Codable, Identifiable, Hashable{
+    var id: String
+    var content : String
     var MBTIType: String
     
 }
