@@ -15,9 +15,6 @@ struct HomeView: View {
     
     var body: some View {
         Text("Home View")
-            .fullScreenCover(isPresented: $isOnboardingActive) {
-                OnboardingView(isOnboardingActive: $isOnboardingActive)
-            }
     }
 }
 
