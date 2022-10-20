@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043387EA28F5737A006801FB /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043387E928F5737A006801FB /* TestView.swift */; };
+		043387EF28F575B8006801FB /* DummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 043387EE28F575B8006801FB /* DummyData.json */; };
+		04958A2128FE7CB6000A3937 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04958A2028FE7CB6000A3937 /* Model.swift */; };
 		04A9D7FE28C3BDC300038D5A /* dadleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D7FD28C3BDC300038D5A /* dadleApp.swift */; };
 		04A9D80028C3BDC300038D5A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D7FF28C3BDC300038D5A /* OnboardingView.swift */; };
 		04A9D80228C3BDC400038D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D80128C3BDC400038D5A /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 		04BD3A6628E199650009B85F /* EnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD3A6328E199650009B85F /* EnvironmentKey.swift */; };
 		04BD3A6728E199650009B85F /* AppleLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD3A6428E199650009B85F /* AppleLoginView.swift */; };
 		04BD3A6A28E199D50009B85F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 04BD3A6928E199D50009B85F /* FirebaseAuth */; };
+		04F89DEC29003549005754BC /* MBTIButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F89DEB29003549005754BC /* MBTIButtonView.swift */; };
+		04FDA0DB28FFE12E004CE321 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDA0DA28FFE12E004CE321 /* QuestionView.swift */; };
+		04FDA0DD28FFEC41004CE321 /* QuestionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDA0DC28FFEC41004CE321 /* QuestionContentView.swift */; };
 		7161261F28E3133900C474D0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161261E28E3133900C474D0 /* ColorExtension.swift */; };
 		71A96E8528C65DE100978DF3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 71A96E8428C65DE100978DF3 /* FirebaseAnalytics */; };
 		71A96E8E28C65EF000978DF3 /* SocialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A96E8D28C65EF000978DF3 /* SocialLoginButton.swift */; };
@@ -29,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043387E928F5737A006801FB /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		043387EE28F575B8006801FB /* DummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DummyData.json; sourceTree = "<group>"; };
+		04958A2028FE7CB6000A3937 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		04A9D7FA28C3BDC300038D5A /* dadle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dadle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9D7FD28C3BDC300038D5A /* dadleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dadleApp.swift; sourceTree = "<group>"; };
 		04A9D7FF28C3BDC300038D5A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -37,6 +46,9 @@
 		04BD3A6228E199650009B85F /* AppleCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleCoordinator.swift; sourceTree = "<group>"; };
 		04BD3A6328E199650009B85F /* EnvironmentKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentKey.swift; sourceTree = "<group>"; };
 		04BD3A6428E199650009B85F /* AppleLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleLoginView.swift; sourceTree = "<group>"; };
+		04F89DEB29003549005754BC /* MBTIButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTIButtonView.swift; sourceTree = "<group>"; };
+		04FDA0DA28FFE12E004CE321 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		04FDA0DC28FFEC41004CE321 /* QuestionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionContentView.swift; sourceTree = "<group>"; };
 		7161261E28E3133900C474D0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		71A96E8D28C65EF000978DF3 /* SocialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginButton.swift; sourceTree = "<group>"; };
 		71A96EB028C6631F00978DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +75,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043387EB28F57385006801FB /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				043387EE28F575B8006801FB /* DummyData.json */,
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
+		04958A1E28FE752A000A3937 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				043387E928F5737A006801FB /* TestView.swift */,
+				04FDA0DA28FFE12E004CE321 /* QuestionView.swift */,
+				04FDA0DC28FFEC41004CE321 /* QuestionContentView.swift */,
+				04F89DEB29003549005754BC /* MBTIButtonView.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		04958A1F28FE7CA7000A3937 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E0A8D28DD896A0065B822 /* MBTITypes.swift */,
+				04958A2028FE7CB6000A3937 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		04A9D7F128C3BDC300038D5A = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +122,8 @@
 		04A9D7FC28C3BDC300038D5A /* dadle */ = {
 			isa = PBXGroup;
 			children = (
+				04958A1F28FE7CA7000A3937 /* Model */,
+				04958A1E28FE752A000A3937 /* Test */,
 				7161262028E3285A00C474D0 /* Onboarding */,
 				7A4E0A8628DD859D0065B822 /* Home */,
 				7A4E0A8528DD858C0065B822 /* Data */,
@@ -128,7 +170,7 @@
 		7A4E0A8528DD858C0065B822 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				7A4E0A8D28DD896A0065B822 /* MBTITypes.swift */,
+				043387EB28F57385006801FB /* Dummy */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -214,6 +256,7 @@
 				04A9D80528C3BDC400038D5A /* Preview Assets.xcassets in Resources */,
 				04A9D80228C3BDC400038D5A /* Assets.xcassets in Resources */,
 				7A4E0A8C28DD87D10065B822 /* GoogleService-Info.plist in Resources */,
+				043387EF28F575B8006801FB /* DummyData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,11 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043387EA28F5737A006801FB /* TestView.swift in Sources */,
 				7A4E0A8A28DD86550065B822 /* AppTabNavigation.swift in Sources */,
+				04F89DEC29003549005754BC /* MBTIButtonView.swift in Sources */,
+				04FDA0DB28FFE12E004CE321 /* QuestionView.swift in Sources */,
 				04BD3A6728E199650009B85F /* AppleLoginView.swift in Sources */,
 				04A9D80028C3BDC300038D5A /* OnboardingView.swift in Sources */,
 				7A4E0A8E28DD896A0065B822 /* MBTITypes.swift in Sources */,
 				71A96E8E28C65EF000978DF3 /* SocialLoginButton.swift in Sources */,
+				04958A2128FE7CB6000A3937 /* Model.swift in Sources */,
+				04FDA0DD28FFEC41004CE321 /* QuestionContentView.swift in Sources */,
 				7A4E0A8828DD85B60065B822 /* HomeView.swift in Sources */,
 				04A9D7FE28C3BDC300038D5A /* dadleApp.swift in Sources */,
 				04BD3A6528E199650009B85F /* AppleCoordinator.swift in Sources */,

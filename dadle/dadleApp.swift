@@ -23,7 +23,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 @main
 struct dadleApp: App {
-    
+    @StateObject private var model = Model()
     // 파이어베이스 셋업 앱 딜리게이트 등록
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
@@ -37,12 +37,14 @@ struct dadleApp: App {
     var body: some Scene {
         WindowGroup {
             // onOpenURL()을 사용해 커스텀 URL 스킴 처리
-            HomeView()
-                .onOpenURL { url in
-                    if (AuthApi.isKakaoTalkLoginUrl(url)) {
-                        _ = AuthController.handleOpenUrl(url: url)
-                    }
-                }
+//            HomeView()
+//                .onOpenURL { url in
+//                    if (AuthApi.isKakaoTalkLoginUrl(url)) {
+//                        _ = AuthController.handleOpenUrl(url: url)
+//                    }
+//                }
+            TestView()
+                .environmentObject(model)
         }
     }
 }
